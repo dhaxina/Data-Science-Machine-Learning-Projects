@@ -13,7 +13,6 @@
 </div>
 
 <hr>
-<hr>
 <h2 align="left">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h2>
 
 <p align="left">
