@@ -164,3 +164,21 @@ The generated summaries are evaluated by measuring their similarity to expert-pr
 
 <hr>
 
+<h2 align="left">🚘 <b>Automatic Number Plate Recognition using Computer Vision</b></h2>
+
+<p align="center">
+  <b>OpenCV | Edge Detection | Contour Extraction | OCR</b>
+</p>
+
+
+<h3>📌 <b>Summary</b></h3>
+
+<p style="font-size:16px; line-height:1.6;">
+This project focuses on detecting and reading vehicle number plates using classical computer vision techniques and OCR. A car image with a clearly visible number plate is taken as input. The image undergoes several preprocessing steps, starting by converting into grayscale, followed by Gaussian blur to remove noise and smoothen the image.
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+Next, Canny edge detection is applied to extract all prominent edges in the image. Since number plates typically contain closed rectangular contours, these regions are identified and segmented from the image. Once the number plate is isolated, <b>OCR (Optical Character Recognition)</b> is used to extract the vehicle’s registration number.
+</p>
+
+<hr>
