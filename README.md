@@ -51,14 +51,14 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
 </p>
 
 <hr>
-
+<hr>
 <h1 align="left">🏗️ <b>Construction Safety Management using YOLO</b></h1>
 
 <p align="left">
   <b>YOLOv3 | ImageNet | Real-Time Safety Monitoring</b>
 </p>
 
-<hr>
+
 
 <h2>📌 <b>Summary</b></h2>
 
