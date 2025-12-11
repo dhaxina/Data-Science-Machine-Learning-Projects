@@ -74,3 +74,33 @@ Key features of the system include:
 </ul>
 
 <hr>
+
+
+<h2 align="left">📧 <b>Phishing Email Detection using TabNet</b></h2>
+
+<p align="left">
+  <b>TabNet | NLP Feature Engineering | Tabular Deep Learning</b>
+</p>
+
+<h3>📌 <b>Summary</b></h3>
+
+<p style="font-size:16px; line-height:1.6;">
+This project focuses on detecting phishing (spam) emails using <b>TabNet</b>, a deep learning model designed specifically for tabular data. The dataset is taken from <b>Kaggle</b>, containing two main columns: the email message and its label (ham/spam).
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+Extensive NLP feature engineering is performed to convert raw text into numerical features:
+</p>
+
+<ul style="font-size:16px; line-height:1.6;">
+  <li>Stopword count, URL count, email-ID count, and misspelled words count</li>
+  <li><b>POS (Part-of-Speech) tagging:</b> counts of nouns, verbs, adjectives, pronouns, etc.</li>
+  <li><b>NER (Named Entity Recognition):</b> counts of names, locations, dates, organizations</li>
+  <li><b>LDA (Latent Dirichlet Allocation):</b> topic modeling to identify themes such as fake promotions, offers, lottery scams, which commonly indicate spam</li>
+</ul>
+
+<p style="font-size:16px; line-height:1.6;">
+After creating the tabular dataset, the dataset is split into an <b>80:20 ratio</b> for training and testing. The final model is built using <b>TabNet</b>, which works well on sparse data.
+</p>
+
+<hr>
