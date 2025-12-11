@@ -14,15 +14,15 @@
 
 <hr>
 
-<h1 align="center">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h1>
+<h2 align="center">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h2>
 
-<p align="center">
+<p align="left">
   <b>Deep Learning | VGG-16 | Medical Image Classification</b>
 </p>
 
 <hr>
 
-<h2>📌 <b>Summary</b></h2>
+<h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
 This project focuses on building an intelligent prediction model for <b>classifying tumor vs. non-tumor brain X-ray images</b> using <b>Transfer Learning (VGG-16)</b>.
@@ -34,7 +34,20 @@ The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b
 
 <hr>
 
-2.Drowsiness Detection System
-📌 Summary
-This project focuses on identifying whether a car driver is alert or drowsy in real time. The system is implemented using a Raspberry Pi, with live video captured through a Pi Camera. Using MediaPipe, the model extracts 468 facial landmark points, enabling accurate 3D feature extraction.
+<h2 align="center">😴 <b>Drowsiness Detection System</b></h2>
+
+<h3>📌 <b>Summary</b></h3>
+
+<p style="font-size:16px; line-height:1.6;">
+This project focuses on detecting whether a car driver is <b>alert or drowsy in real time</b>. The system is implemented using a <b>Raspberry Pi</b>, with continuous video input captured through a <b>Pi Camera</b>.
+<br><br>
+Using <b>MediaPipe</b>, the system extracts <b>468 facial landmark points</b>, enabling highly accurate <b>3D facial feature tracking</b>. For this project, the primary focus is on critical facial regions such as the <b>eyes</b> and <b>mouth</b>.
+<br><br>
+Key features such as the <b>Eye Aspect Ratio (EAR)</b> and <b>Mouth Aspect Ratio (MAR)</b> are computed from the extracted landmarks to detect signs of drowsiness, including <b>tired/blinking eyes</b> and <b>frequent yawning</b>.
+<br><br>
+Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>.
+</p>
+
+<hr>
+
 For this project, key facial features around the eyes and mouth are used. Based on these features, the Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) are calculated to detect signs of drowsiness such as tired eyes and frequent yawning. Threshold values are set for EAR and MAR; when the real-time values cross these thresholds, the system classifies the driver as drowsy.
