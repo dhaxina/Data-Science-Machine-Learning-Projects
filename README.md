@@ -52,3 +52,27 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
 
 <hr>
 
+<h1 align="left">🏗️ <b>Construction Safety Management using YOLO</b></h1>
+
+<p align="left">
+  <b>YOLOv3 | ImageNet | Real-Time Safety Monitoring</b>
+</p>
+
+<hr>
+
+<h2>📌 <b>Summary</b></h2>
+
+<p style="font-size:16px; line-height:1.6;">
+This project aims to monitor the safety of construction site workers using <b>YOLOv3 (You Only Look Once)</b> with pretrained weights from <b>ImageNet</b>.
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+Key features of the system include:
+</p>
+
+<ul style="font-size:16px; line-height:1.6;">
+  <li><b>Safety Equipment Detection:</b> The model checks whether workers are wearing essential safety gear, such as goggles, safety jackets, helmets, and gloves.</li>
+  <li><b>Danger Zone Monitoring:</b> Danger zones in the construction site are manually defined using bounding boxes. If a worker’s bounding box overlaps with a danger zone, the system triggers an alert to prevent accidents.</li>
+</ul>
+
+<hr>
