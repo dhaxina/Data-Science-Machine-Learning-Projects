@@ -31,7 +31,7 @@ The dataset was obtained from <b>Kaggle</b>, and extensive <b>preprocessing & im
 The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-16 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
 </p>
 <hr>
-<hr>
+
 
 <h2 align="left">😴 <b>Drowsiness Detection System</b></h2>
 <p align="left">
@@ -49,7 +49,6 @@ Key features such as the <b>Eye Aspect Ratio (EAR)</b> and <b>Mouth Aspect Ratio
 Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>.
 </p>
 
-<hr>
 <hr>
 <h2 align="left">🏗️ <b>Construction Safety Management using YOLO</b></h2>
 
