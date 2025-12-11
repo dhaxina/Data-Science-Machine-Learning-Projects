@@ -102,5 +102,31 @@ Extensive NLP feature engineering is performed to convert raw text into numerica
 <p style="font-size:16px; line-height:1.6;">
 After creating the tabular dataset, the dataset is split into an <b>80:20 ratio</b> for training and testing. The final model is built using <b>TabNet</b>, which works well on sparse data.
 </p>
+<hr>
+
+<h2 align="left">🖼️ <b>Restoration of Image Watermark using U-Net</b></h2>
+
+<p align="left">
+  <b>U-Net | Image-to-Image Translation | EasyOCR | Computer Vision</b>
+</p>
+
+<h3>📌 <b>Summary</b></h3>
+
+<p style="font-size:16px; line-height:1.6;">
+This project focuses on restoring watermarks from images using a <b>U-Net-based deep learning model</b>. The dataset is taken from <b>Kaggle</b>, containing random images such as nature, animals, and scenery. Each image is overlaid with random watermark text placed at random positions. Additional <b>white noise</b> and <b>blur</b> are added to degrade the image.
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+For training:
+</p>
+
+<ul style="font-size:16px; line-height:1.6;">
+  <li><b>Input:</b> noisy images containing watermarks</li>
+  <li><b>Output:</b> clean watermark-only images</li>
+</ul>
+
+<p style="font-size:16px; line-height:1.6;">
+The dataset is split in an <b>80:20 ratio</b> for training and testing. A <b>U-Net architecture</b> is trained to reconstruct the watermark regions from the noisy inputs. During evaluation, the predicted watermark image is processed using <b>EasyOCR</b> to read the extracted text. Model accuracy is measured based on how many watermark texts are correctly recovered.
+</p>
 
 <hr>
