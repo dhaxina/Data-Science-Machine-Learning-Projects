@@ -130,3 +130,21 @@ The dataset is split in an <b>80:20 ratio</b> for training and testing. A <b>U-N
 </p>
 
 <hr>
+
+<h2 align="left">🩺 <b>Medical Report Summarization using Hugging Face Transformers</b></h2>
+
+<p align="left">
+  <b>Hugging Face | BERT | T5-Base | DistilBART | NLP Summarization</b>
+</p>
+
+<h3>📌 <b>Summary</b></h3>
+
+<p style="font-size:16px; line-height:1.6;">
+I have taken the dataset from a research paper. It contains some sample medical reports and the summary of the reports given by some doctors. Some NLP preprocessing is done like converting to lowercase, removal of stop words, stemming, lemmatization. <b>LDA</b> is used for topic modelling. Extractive summarization is done, which picks important sentences from the report. After that, abstractive summarization of the report is done.
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+The values of <b>Temperature</b>, <b>Top-P</b> and <b>Top-K</b> are set initially. By using different Hugging Face transformers like <b>BERT</b>, <b>T5-Base</b>, and <b>DistilBART</b>, the report summary is generated. Then the models’ performance is evaluated based on the similarity between the generated summary and the expert's summary.
+</p>
+
+<hr>
