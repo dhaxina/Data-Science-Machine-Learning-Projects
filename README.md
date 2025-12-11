@@ -166,7 +166,7 @@ The generated summaries are evaluated by measuring their similarity to expert-pr
 
 <h2 align="left">🚘 <b>Automatic Number Plate Recognition using Computer Vision</b></h2>
 
-<p align="center">
+<p align="left">
   <b>OpenCV | Edge Detection | Contour Extraction | OCR</b>
 </p>
 
