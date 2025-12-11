@@ -14,7 +14,7 @@
 
 <hr>
 
-<h2 align="center">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h2>
+<h2 align="left">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h2>
 
 <p align="left">
   <b>Deep Learning | VGG-16 | Medical Image Classification</b>
@@ -34,8 +34,10 @@ The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b
 
 <hr>
 
-<h2 align="center">😴 <b>Drowsiness Detection System</b></h2>
-
+<h2 align="left">😴 <b>Drowsiness Detection System</b></h2>
+<p align="left">
+  <b>MediaPipe | Raspberry Pi | Real-Time Computer Vision</b>
+</p>
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
@@ -50,4 +52,3 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
 
 <hr>
 
-For this project, key facial features around the eyes and mouth are used. Based on these features, the Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) are calculated to detect signs of drowsiness such as tired eyes and frequent yawning. Threshold values are set for EAR and MAR; when the real-time values cross these thresholds, the system classifies the driver as drowsy.
