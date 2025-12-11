@@ -131,7 +131,7 @@ The dataset is split in an <b>80:20 ratio</b> for training and testing. A <b>U-N
 
 <hr>
 
-<h2 align="left">🩺 <b>Medical Report Summarization using Hugging Face Transformers</b></h2>
+<h2 align="left">🏥 <b>Medical Report Summarization using Hugging Face Transformers</b></h1>
 
 <p align="left">
   <b>Hugging Face | BERT | T5-Base | DistilBART | NLP Summarization</b>
@@ -140,11 +140,27 @@ The dataset is split in an <b>80:20 ratio</b> for training and testing. A <b>U-N
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-I have taken the dataset from a research paper. It contains some sample medical reports and the summary of the reports given by some doctors. Some NLP preprocessing is done like converting to lowercase, removal of stop words, stemming, lemmatization. <b>LDA</b> is used for topic modelling. Extractive summarization is done, which picks important sentences from the report. After that, abstractive summarization of the report is done.
+This project focuses on generating accurate and meaningful summaries of medical reports using state-of-the-art Hugging Face Transformer models. The dataset is collected from a research paper which contains raw medical reports along with expert-written summaries provided by doctors.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
-The values of <b>Temperature</b>, <b>Top-P</b> and <b>Top-K</b> are set initially. By using different Hugging Face transformers like <b>BERT</b>, <b>T5-Base</b>, and <b>DistilBART</b>, the report summary is generated. Then the models’ performance is evaluated based on the similarity between the generated summary and the expert's summary.
+To generate the summary, several NLP preprocessing steps are performed:
+</p>
+
+<ul style="font-size:16px; line-height:1.6;">
+  <li>Converting text to lowercase</li>
+  <li>Removing stop words</li>
+  <li>Stemming and lemmatization</li>
+  <li>Topic modeling using <b>LDA (Latent Dirichlet Allocation)</b></li>
+</ul>
+
+<p style="font-size:16px; line-height:1.6;">
+Both extractive and abstractive summarization techniques are applied. Extractive summarization identifies key sentences directly from the medical report. Abstractive summarization is performed using Transformer models such as <b>BERT</b>, <b>T5-Base</b>, and <b>DistilBART</b>, with controlled decoding parameters like <b>Temperature</b>, <b>Top-P</b>, and <b>Top-K</b>.
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+The generated summaries are evaluated by measuring their similarity to expert-provided summaries, ensuring that the models produce medically relevant and coherent outputs.
 </p>
 
 <hr>
+
