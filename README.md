@@ -13,14 +13,14 @@
 </div>
 
 <hr>
-
+<hr>
 <h2 align="left">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h2>
 
 <p align="left">
   <b>Deep Learning | VGG-16 | Medical Image Classification</b>
 </p>
 
-<hr>
+
 
 <h3>📌 <b>Summary</b></h3>
 
@@ -31,7 +31,7 @@ The dataset was obtained from <b>Kaggle</b>, and extensive <b>preprocessing & im
 <br><br>
 The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-16 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
 </p>
-
+<hr>
 <hr>
 
 <h2 align="left">😴 <b>Drowsiness Detection System</b></h2>
@@ -52,7 +52,7 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
 
 <hr>
 <hr>
-<h1 align="left">🏗️ <b>Construction Safety Management using YOLO</b></h1>
+<h2 align="left">🏗️ <b>Construction Safety Management using YOLO</b></h2>
 
 <p align="left">
   <b>YOLOv3 | ImageNet | Real-Time Safety Monitoring</b>
@@ -60,7 +60,7 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
 
 
 
-<h2>📌 <b>Summary</b></h2>
+<h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
 This project aims to monitor the safety of construction site workers using <b>YOLOv3 (You Only Look Once)</b> with pretrained weights from <b>ImageNet</b>.
