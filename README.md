@@ -8,7 +8,7 @@
      width:80%;
 ">
   <p style="font-size:15px;">
-    This repository contains the summary of my academic projects.
+    This repository contains the summary of machine learning and data science related projects which I have worked on.
   </p>
 </div>
 
