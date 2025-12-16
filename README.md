@@ -16,7 +16,7 @@
 <h2 align="left">🧠 <b>Brain Tumor Detection using Transfer Learning</b></h2>
 
 <p align="left">
-  <b>Deep Learning | VGG-16 | Medical Image Classification</b>
+  <b>Deep Learning | VGG-19 | Medical Image Classification</b>
 </p>
 
 
@@ -26,9 +26,9 @@
 <p style="font-size:16px; line-height:1.6;">
 This project focuses on building an intelligent prediction model for <b>classifying tumor vs. non-tumor brain X-ray images</b> using <b>Transfer Learning (VGG-16)</b>.
 <br><br>
-The dataset was obtained from <b>Kaggle</b>, and extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance.
+The dataset was obtained from multipe sources, and extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance.
 <br><br>
-The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-16 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
+The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-19 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
 </p>
 <hr>
 
@@ -56,12 +56,10 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
   <b>YOLOv3 | ImageNet | Real-Time Safety Monitoring</b>
 </p>
 
-
-
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project aims to monitor the safety of construction site workers using <b>YOLOv3 (You Only Look Once)</b> with pretrained weights from <b>ImageNet</b>.
+This project aims to monitor the safety of construction site workers using <b>YOLOv8 (You Only Look Once)</b> with custom training of dataset.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
