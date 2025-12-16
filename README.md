@@ -102,16 +102,16 @@ After creating the tabular dataset, the dataset is split into an <b>80:20 ratio<
 </p>
 <hr>
 
-<h2 align="left">🖼️ <b>Restoration of Image Watermark using U-Net</b></h2>
+<h2 align="left">🖼️ <b>Restoration of Image Watermark using Diffusion Model with U-Net</b></h2>
 
 <p align="left">
-  <b>U-Net | Image-to-Image Translation | EasyOCR | Computer Vision</b>
+  <b>Diffusion Model | U-Net Backbone | Image-to-Image Translation | EasyOCR | Computer Vision</b>
 </p>
 
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on restoring watermarks from images using a <b>U-Net-based deep learning model</b>. The dataset is taken from <b>Kaggle</b>, containing random images such as nature, animals, and scenery. Each image is overlaid with random watermark text placed at random positions. Additional <b>white noise</b> and <b>blur</b> are added to degrade the image.
+This project focuses on restoring watermarks from images using a <b>diffusion model with a U-Net backbone</b>. The dataset is sourced from <b>Kaggle</b> and contains diverse images including nature, animals, and scenery. Each image is overlaid with random watermark text at random positions. Additional <b>white noise</b> and <b>blur</b> are added to simulate real-world image degradation.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
@@ -124,59 +124,15 @@ For training:
 </ul>
 
 <p style="font-size:16px; line-height:1.6;">
-The dataset is split in an <b>80:20 ratio</b> for training and testing. A <b>U-Net architecture</b> is trained to reconstruct the watermark regions from the noisy inputs. During evaluation, the predicted watermark image is processed using <b>EasyOCR</b> to read the extracted text. Model accuracy is measured based on how many watermark texts are correctly recovered.
-</p>
-
-<hr>
-
-<h2 align="left">🏥 <b>Medical Report Summarization using Hugging Face Transformers</b></h1>
-
-<p align="left">
-  <b>Hugging Face | BERT | T5-Base | DistilBART | NLP Summarization</b>
-</p>
-
-<h3>📌 <b>Summary</b></h3>
-
-<p style="font-size:16px; line-height:1.6;">
-This project focuses on generating accurate and meaningful summaries of medical reports using state-of-the-art Hugging Face Transformer models. The dataset is collected from a research paper which contains raw medical reports along with expert-written summaries provided by doctors.
+The dataset is split in an <b>80:20 ratio</b> for training and testing. A <b>denoising diffusion model</b> is trained with a <b>U-Net architecture</b> to iteratively reconstruct watermark regions from noisy inputs. At each diffusion step, the U-Net predicts the noise to be removed, gradually restoring the clean watermark image.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
-To generate the summary, several NLP preprocessing steps are performed:
-</p>
-
-<ul style="font-size:16px; line-height:1.6;">
-  <li>Converting text to lowercase</li>
-  <li>Removing stop words</li>
-  <li>Stemming and lemmatization</li>
-  <li>Topic modeling using <b>LDA (Latent Dirichlet Allocation)</b></li>
-</ul>
-
-<p style="font-size:16px; line-height:1.6;">
-Both extractive and abstractive summarization techniques are applied. Extractive summarization identifies key sentences directly from the medical report. Abstractive summarization is performed using Transformer models such as <b>BERT</b>, <b>T5-Base</b>, and <b>DistilBART</b>, with controlled decoding parameters like <b>Temperature</b>, <b>Top-P</b>, and <b>Top-K</b>.
+During evaluation, the restored watermark images are processed using <b>EasyOCR</b> to extract the text. Model performance is measured based on the accuracy of the recovered watermark text.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
-The generated summaries are evaluated by measuring their similarity to expert-provided summaries, ensuring that the models produce medically relevant and coherent outputs.
-</p>
-
-<hr>
-
-<h2 align="left">🚘 <b>Automatic Number Plate Recognition using Computer Vision</b></h2>
-
-<p align="left">
-  <b>OpenCV | Edge Detection | Canny edge detection | OCR</b>
-</p>
-
-
-<h3>📌 <b>Summary</b></h3>
-
-<p style="font-size:16px; line-height:1.6;">
-This project focuses on detecting and reading vehicle number plates using classical computer vision techniques and <b>OCR</b>. A car image with a clearly visible number plate is taken as input. The image undergoes several preprocessing steps, starting by converting into <b>grayscale</b>, followed by <b>Gaussian blur</b> to remove noise and smoothen the image.
-</p>
-
-<p style="font-size:16px; line-height:1.6;">
-Next, <b>Canny edge detection</b> is applied to extract all prominent edges in the image. Since number plates typically contain closed rectangular contours, these regions are identified and segmented from the image. Once the number plate is isolated, <b>OCR (Optical Character Recognition)</b> is used to extract the vehicle’s registration number.
+This approach leverages the <b>generative capabilities of diffusion models</b> combined with the <b>localization strength of U-Net</b>, enabling robust restoration of subtle watermark patterns even under heavy noise and blur.
 </p>
 
 <hr>
