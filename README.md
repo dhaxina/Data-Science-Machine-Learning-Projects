@@ -73,6 +73,34 @@ Key features of the system include:
 
 <hr>
 
+<h2 align="left">📊 <b>AI Dashboard for Project Governance</b></h2>
+
+<p align="left">
+  <b>Dash | Plotly | RAG Indicators | Real-Time Analytics | Project Management</b>
+</p>
+
+<h3>📌 <b>Summary</b></h3>
+
+<p style="font-size:16px; line-height:1.6;">
+Developed a real-time interactive <b>AI dashboard using Dash and Plotly</b> to monitor project progress, generate reports, and provide team-wise performance insights. The dashboard consolidates multiple data sources and visualizations for comprehensive project governance.
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+<b>Key Features / Process:</b>
+</p>
+
+<ul style="font-size:16px; line-height:1.6;">
+  <li>Interactive visualizations for project progress and team-wise performance.</li>
+  <li>Integration of <b>RAG (Red-Amber-Green) indicators</b> to quickly highlight risks and track project status.</li>
+  <li>Real-time analytics enabling continuous monitoring and proactive decision-making.</li>
+</ul>
+
+<p style="font-size:16px; line-height:1.6;">
+<b>Outcome:</b> The dashboard enabled <b>data-driven project management</b>, allowing stakeholders to identify risks early, make informed decisions, and improve overall project efficiency.
+</p>
+
+<hr>
+
 
 <h2 align="left">📧 <b>Phishing Email Detection using TabNet</b></h2>
 
@@ -83,7 +111,7 @@ Key features of the system include:
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on detecting phishing (spam) emails using <b>TabNet</b>, a deep learning model designed specifically for tabular data. The dataset is taken from <b>Kaggle</b>, containing two main columns: the email message and its label (ham/spam).
+This project focuses on detecting phishing (spam) emails using <b>TabNet</b>, a deep learning model designed specifically for tabular data. The dataset contains, containing two main columns: the email message and its label (ham/spam).
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
@@ -111,7 +139,7 @@ After creating the tabular dataset, the dataset is split into an <b>80:20 ratio<
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on restoring watermarks from images using a <b>diffusion model with a U-Net backbone</b>. The dataset is sourced from <b>Kaggle</b> and contains diverse images including nature, animals, and scenery. Each image is overlaid with random watermark text at random positions. Additional <b>white noise</b> and <b>blur</b> are added to simulate real-world image degradation.
+This project focuses on restoring watermarks from images using a <b>diffusion model with a U-Net backbone</b>. The dataset is sourced from and contains diverse images including nature, animals, and scenery and so on. Each image has different watermark text at random positions. Additional <b>white noise</b> and <b>blur</b> are added to simulate real-world image degradation.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
