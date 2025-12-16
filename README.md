@@ -24,7 +24,7 @@
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on building an intelligent prediction model for <b>classifying tumor vs. non-tumor brain X-ray images</b> using <b>Transfer Learning (VGG-16)</b>.
+This project focuses on building an intelligent prediction model for <b>classifying tumor vs. non-tumor brain X-ray images</b> using <b>Transfer Learning (VGG-19)</b>.
 <br><br>
 The dataset was obtained from multipe sources, and extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance.
 <br><br>
@@ -53,7 +53,7 @@ Threshold values are set for both EAR and MAR. When real-time values cross these
 <h2 align="left">🏗️ <b>Construction Safety Management using YOLO</b></h2>
 
 <p align="left">
-  <b>YOLOv3 | ImageNet | Real-Time Safety Monitoring</b>
+  <b>YOLOv8 | ImageNet | Real-Time Safety Monitoring</b>
 </p>
 
 <h3>📌 <b>Summary</b></h3>
@@ -91,7 +91,7 @@ Developed a real-time interactive <b>AI dashboard using Dash and Plotly</b> to m
 
 <ul style="font-size:16px; line-height:1.6;">
   <li>Interactive visualizations for project progress and team-wise performance.</li>
-  <li>Integration of <b>RAG (Red-Amber-Green) indicators</b> to quickly highlight risks and track project status.</li>
+  <li>Integration of <b>RAG</b> helps us to quickly highlight risks and track project status.</li>
   <li>Real-time analytics enabling continuous monitoring and proactive decision-making.</li>
 </ul>
 
