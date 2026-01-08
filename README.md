@@ -26,7 +26,7 @@
 <p style="font-size:16px; line-height:1.6;">
 This project focuses on building an intelligent prediction model for <b>classifying tumor vs. non-tumor brain X-ray images</b> using <b>Transfer Learning (VGG-19)</b>.
 <br><br>
-The dataset was obtained from multipe sources, and extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance.
+The organization provided approximately 600 in-house brain X-ray images for the dataset. Additional images were collected from open-source repositories, total dataset of 3000 images. Then extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance. After performing data augmentation, the final dataset is approximately 6,000 images.
 <br><br>
 The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-19 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
 </p>
