@@ -67,7 +67,7 @@ The Recall value is ~ 96%
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project aims to monitor the safety of construction site workers using <b>YOLOv8 (You Only Look Once)</b> with custom training of dataset.
+This project aims to monitor the safety of construction site workers using <b>YOLOv8 (You Only Look Once)</b> with custom training of dataset(2000 images - 1000 gloves image and 1000 goggles image). After doing preprocessing and data augmentaion the dataset size is 4000 images 
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
