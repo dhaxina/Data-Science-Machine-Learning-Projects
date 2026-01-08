@@ -46,9 +46,11 @@ Using <b>MediaPipe</b>, the system extracts <b>468 facial landmark points</b>(46
 <br><br>
 Key features such as the <b>Eye Aspect Ratio (EAR)</b> and <b>Mouth Aspect Ratio (MAR)</b> are computed from the extracted landmarks to detect signs of drowsiness, including <b>tired/blinking eyes</b> and <b>frequent yawning</b>.
 <br><br>
-- Threshold Value  
-- EAR > 0.25 → Eyes open  
-- MAR < 0.60 → Mouth closed
+Threshold Value  
+<br>
+EAR > 0.25 → Eyes open
+<br>
+ MAR < 0.60 → Mouth closed
 <br><br>
 Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>. This model has a processing latency < 100 ms. 
 </p>
