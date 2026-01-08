@@ -124,7 +124,7 @@ Hallucination Rate - 10-15%
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on detecting phishing (spam) emails using <b>TabNet</b>, a deep learning model designed specifically for tabular data. The dataset contains, containing two main columns: the email message and its label (ham/spam).
+This project focuses on detecting phishing (spam) emails using <b>TabNet</b>, a deep learning model designed specifically for tabular data. The dataset contains details such as the email subject, email body, and other metadata, including email sent time, sender domain ID, number of file attachments, and the email label (ham/spam). It consists of a total of six columns and 50,000 rows of data, collected from emails in the previous organization.
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
@@ -139,8 +139,13 @@ Extensive NLP feature engineering is performed to convert raw text into numerica
 </ul>
 
 <p style="font-size:16px; line-height:1.6;">
-After creating the tabular dataset, the dataset is split into an <b>80:20 ratio</b> for training and testing. The final model is built using <b>TabNet</b>, which works well on sparse data.
+After creating the numeraical tabular dataset, the dataset contains 30 features. The dataset is split into an <b>80:20 ratio</b> for training and testing. The final model is built using <b>TabNet</b>, which works well on sparse data.
 </p>
+<br><br>
+Model Performance
+<br>
+Precision - 97%
+Recall - 93%
 <hr>
 
 <h2 align="left">🖼️ <b>Restoration of Image Watermark using Diffusion Model with U-Net</b></h2>
