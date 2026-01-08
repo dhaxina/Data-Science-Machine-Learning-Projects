@@ -84,7 +84,7 @@ Key features of the system include:
 <h2 align="left">📊 <b>AI Dashboard for Project Governance</b></h2>
 
 <p align="left">
-  <b>Dash | Plotly | RAG Indicators | Real-Time Analytics | Project Management</b>
+  <b>Dash | Plotly | RAG | Real-Time Analytics | Project Management</b>
 </p>
 
 <h3>📌 <b>Summary</b></h3>
@@ -99,10 +99,15 @@ Developed a real-time interactive <b>AI dashboard using Dash and Plotly</b> to m
 
 <ul style="font-size:16px; line-height:1.6;">
   <li>Interactive visualizations for project progress and team-wise performance.</li>
-  <li>Integration of <b>RAG</b> helps us to quickly highlight risks and track project status.</li>
+  <li>Integration of <b>RAG</b> helps us to provide grounded and accrate information and avoids hallucination.</li>
   <li>Real-time analytics enabling continuous monitoring and proactive decision-making.</li>
 </ul>
-
+<br><br>
+The accuracy scores are
+<br>
+Factual Accuracy - 87-90%
+<br>
+Hallucination Rate - 10-15%
 <p style="font-size:16px; line-height:1.6;">
 <b>Outcome:</b> The dashboard enabled <b>data-driven project management</b>, allowing stakeholders to identify risks early, make informed decisions, and improve overall project efficiency.
 </p>
