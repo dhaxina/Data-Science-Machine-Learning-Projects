@@ -102,12 +102,13 @@ Developed a real-time interactive <b>AI dashboard using Dash and Plotly</b> to m
   <li>Integration of <b>RAG</b> helps us to provide grounded and accrate information and avoids hallucination.</li>
   <li>Real-time analytics enabling continuous monitoring and proactive decision-making.</li>
 </ul>
-<br><br>
+<br>
 The accuracy scores are
 <br>
 Factual Accuracy - 87-90%
 <br>
 Hallucination Rate - 10-15%
+<br>
 <p style="font-size:16px; line-height:1.6;">
 <b>Outcome:</b> The dashboard enabled <b>data-driven project management</b>, allowing stakeholders to identify risks early, make informed decisions, and improve overall project efficiency.
 </p>
