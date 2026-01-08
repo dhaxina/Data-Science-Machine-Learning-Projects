@@ -26,7 +26,7 @@
 <p style="font-size:16px; line-height:1.6;">
 This project focuses on building an intelligent prediction model for <b>classifying tumor vs. non-tumor brain X-ray images</b> using <b>Transfer Learning (VGG-19)</b>.
 <br><br>
-The organization provided approximately 600 in-house brain X-ray images for the dataset. Additional images were collected from open-source repositories, total dataset of 3000 images. Then extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance. After performing data augmentation, the final dataset is approximately 6,000 images.
+The organization provided approximately 600 in-house brain X-ray images for the dataset. Additional images were collected from open-source repositories, total dataset of 3000 images. Then extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance. After performing data augmentation, the final dataset is approximately 6000 images.
 <br><br>
 The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-19 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
 </p>
@@ -42,11 +42,15 @@ The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b
 <p style="font-size:16px; line-height:1.6;">
 This project focuses on detecting whether a car driver is <b>alert or drowsy in real time</b>. The system is implemented using a <b>Raspberry Pi</b>, with continuous video input captured through a <b>Pi Camera</b>.
 <br><br>
-Using <b>MediaPipe</b>, the system extracts <b>468 facial landmark points</b>, enabling highly accurate <b>3D facial feature tracking</b>. For this project, the primary focus is on critical facial regions such as the <b>eyes</b> and <b>mouth</b>.
+Using <b>MediaPipe</b>, the system extracts <b>468 facial landmark points</b>(468 × 3 coordinates per frame), enabling highly accurate <b>3D facial feature tracking</b>. For this project, the primary focus is on critical facial regions such as the <b>eyes</b> and <b>mouth</b>(~35–40 key landmarks used for feature computation).
 <br><br>
 Key features such as the <b>Eye Aspect Ratio (EAR)</b> and <b>Mouth Aspect Ratio (MAR)</b> are computed from the extracted landmarks to detect signs of drowsiness, including <b>tired/blinking eyes</b> and <b>frequent yawning</b>.
 <br><br>
-Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>.
+Threshold Value
+EAR > 0.25 → Eyes open
+MAR < 0.60 → Mouth closed 
+<br><br>
+Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>. This model has a processing latency < 100 ms. 
 </p>
 
 <hr>
