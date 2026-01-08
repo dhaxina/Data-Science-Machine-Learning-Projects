@@ -52,7 +52,9 @@ EAR > 0.25 → Eyes open
 <br>
  MAR < 0.60 → Mouth closed
 <br><br>
-Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>. This model has a processing latency < 100 ms. 
+Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>. This model has a processing latency < 100 ms.
+<br><br>
+The Recall value is ~ 96%
 </p>
 
 <hr>
