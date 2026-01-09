@@ -157,7 +157,7 @@ Recall - 93%
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on restoring watermarks from images using a <b>diffusion model with a U-Net backbone</b>. The dataset is sourced from and contains diverse images including nature, animals, and scenery and so on. Each image has different watermark text at random positions. Additional <b>white noise</b> and <b>blur</b> are added to simulate real-world image degradation.
+This project focuses on restoring watermarks from images using a <b>diffusion model with a U-Net backbone</b>. The dataset consists of 5,000 degraded images along with their corresponding original images. To increase the dataset size, an additional 5,000 images are added by applying synthetic noise to the collected images. Each image contains watermark text placed at different positions. Furthermore, white noise and blur are added to make the image degrade completely
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
@@ -180,7 +180,7 @@ During evaluation, the restored watermark images are processed using <b>EasyOCR<
 <p style="font-size:16px; line-height:1.6;">
 This approach leverages the <b>generative capabilities of diffusion models</b> combined with the <b>localization strength of U-Net</b>, enabling robust restoration of subtle watermark patterns even under heavy noise and blur.
 </p>
-<br><br>
+<br>
 Model Performance
 <br>
 SSIM Score - 92%  OCR Accuracy - 96%
