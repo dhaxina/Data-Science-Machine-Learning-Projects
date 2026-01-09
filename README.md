@@ -180,5 +180,8 @@ During evaluation, the restored watermark images are processed using <b>EasyOCR<
 <p style="font-size:16px; line-height:1.6;">
 This approach leverages the <b>generative capabilities of diffusion models</b> combined with the <b>localization strength of U-Net</b>, enabling robust restoration of subtle watermark patterns even under heavy noise and blur.
 </p>
-
+<br><br>
+Model Performance
+<br>
+SSIM Score - 92%  OCR Accuracy - 96%
 <hr>
