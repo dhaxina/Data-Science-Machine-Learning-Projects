@@ -98,7 +98,7 @@ Key features of the system include:
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
-Developed a real-time interactive <b>AI dashboard using Dash and Plotly</b> to monitor project progress, generate reports, and provide team-wise performance insights. The dashboard consolidates multiple data sources and visualizations for comprehensive project governance.
+Developed a real-time interactive <b>AI dashboard using Dash and Plotly</b> to monitor project progress, generate reports, and provide team-wise performance insights. The dashboard consolidates multiple data sources and visualizations for comprehensive project governance. The dataset contains 200 associates deatils(rows) and features like Employee name, team name, project name, day by day work update and blockers(~65-70 features).
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
