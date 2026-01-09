@@ -19,8 +19,6 @@
   <b>Deep Learning | VGG-19 | Medical Image Classification</b>
 </p>
 
-
-
 <h3>📌 <b>Summary</b></h3>
 
 <p style="font-size:16px; line-height:1.6;">
@@ -37,6 +35,8 @@ Recall - 97%
 F1-Score - 94%
 <br>
 Precision - 90%
+<br>
+AUC-ROC - 95%
 </p>
 <hr>
 
@@ -154,6 +154,7 @@ Model Performance
 <br>
 Precision - 97%
 Recall - 93%
+AUC-ROC - 95%
 <hr>
 
 <h2 align="left">🖼️ <b>Restoration of Image Watermark using Diffusion Model with U-Net</b></h2>
@@ -190,6 +191,8 @@ This approach leverages the <b>generative capabilities of diffusion models</b> c
 <br>
 Model Performance
 <br>
-SSIM Score - 92%  OCR Accuracy - 96%
+SSIM Score - 92%
+<br>
+OCR Accuracy - 96%
 </p>
 <hr>
