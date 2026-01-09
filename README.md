@@ -92,7 +92,11 @@ Key features of the system include:
 
 <ul style="font-size:16px; line-height:1.6;">
   <li><b>Safety Equipment Detection:</b> The model checks whether workers are wearing essential safety gear, such as goggles, safety jackets, helmets, and gloves. The accuracy of the model is 85%</li>
-  <li><b>Danger Zone Monitoring:</b> Danger zones in the construction site are manually defined using bounding boxes. If a worker’s bounding box overlaps with a danger zone, the system triggers an alert to prevent accidents. IoU with Danger Zone Threshold - 0.5. Performace Measure Precision - 97% Recall - 97% </li>
+  <li>
+    <b>Danger Zone Monitoring:</b> Danger zones in the construction site are manually defined using bounding boxes. If a worker’s bounding box overlaps with a danger zone, the system triggers an alert to prevent accidents.
+    <div>IoU with Danger Zone Threshold: 0.5</div>
+    <div>Performance Measure - Precision: 97%, Recall: 97%</div>
+  </li>
 </ul>
 
 <hr>
