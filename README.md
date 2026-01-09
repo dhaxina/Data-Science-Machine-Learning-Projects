@@ -29,6 +29,14 @@ This project focuses on building an intelligent prediction model for <b>classify
 The organization provided approximately 600 in-house brain X-ray images for the dataset. Additional images were collected from open-source repositories, total dataset of 3000 images. Then extensive <b>preprocessing & image augmentation</b> techniques were applied to improve model robustness and performance. After performing data augmentation, the final dataset is approximately 6000 images.
 <br><br>
 The final dataset was split in an <b>80:20 train-test ratio</b>. A pretrained <b>VGG-19 network</b> was fine-tuned for tumor classification. After training, the model was evaluated using <b>accuracy, loss curves, and other key performance metrics</b>.
+<br><br>
+Model Performance
+<br>
+Recall - 97%
+<br>
+F1-Score - 94%
+<br>
+Precision - 90%
 </p>
 <hr>
 
@@ -50,7 +58,7 @@ Threshold Value
 <br>
 EAR > 0.25 → Eyes open
 <br>
- MAR < 0.60 → Mouth closed
+MAR < 0.60 → Mouth closed
 <br><br>
 Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>. This model has a processing latency < 100 ms.
 <br><br>
@@ -179,9 +187,9 @@ During evaluation, the restored watermark images are processed using <b>EasyOCR<
 
 <p style="font-size:16px; line-height:1.6;">
 This approach leverages the <b>generative capabilities of diffusion models</b> combined with the <b>localization strength of U-Net</b>, enabling robust restoration of subtle watermark patterns even under heavy noise and blur.
-</p>
 <br>
 Model Performance
 <br>
 SSIM Score - 92%  OCR Accuracy - 96%
+</p>
 <hr>
