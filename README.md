@@ -62,7 +62,14 @@ MAR < 0.60 → Mouth closed
 <br><br>
 Threshold values are set for both EAR and MAR. When real-time values cross these thresholds, the system actively flags the driver as <b>drowsy</b>. This model has a processing latency < 100 ms.
 <br><br>
-The Recall value is ~ 96%
+Performance
+<br>
+Normal Condition
+<br>
+Recall - 98%  Precision - 92%  F1-Score  - 95%  Accuracy - 96%
+Noisy Condition
+<br>
+Recall - 95%  Precision - 88%  F1-Score  - 91%  Accuracy - 92%
 </p>
 
 <hr>
